@@ -1,0 +1,57 @@
+.table-view {
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    border: none;
+    margin: auto 10%;
+  }
+  
+  thead {
+    background-color: white;
+    box-shadow: 0px 1px 1px gray;
+    tr {
+      height: 40px;
+    }
+    th {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+  
+  tbody {
+    tr {
+      height: 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    td {
+      padding-left: 10px;
+    }
+  }
+  .status-paid {
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: #b9dccc;;
+    padding: 5px;
+  }
+  .status-deliver {
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: #c4c5fb;
+    padding: 5px;
+  }
+  .ml-15 {
+    margin-left: 15px;
+  }
+  .byos {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 2px;
+    font-weight: bolder;
+  }
+  .ispendingvendoronboarding {
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: yellow;
+    padding: 5px;
+  }
+}
